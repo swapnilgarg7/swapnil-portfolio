@@ -37,7 +37,7 @@ export default function Hero() {
     };
 
     return (
-        <div className="w-full nav-height bg-black relative">
+        <div className="w-full nav-height bg-black relative px-8">
             <div id="hero" className="h-5/6 w-full flex-center flex-col sm:flex-row justify-between gap-16 sm:gap-32">
                 <div >
                     <div className="text-white text-4xl font-bold hero-text max-md:mb-10">Hello, I'm <span className="text-blue">Swapnil Garg</span></div>

@@ -70,6 +70,14 @@ export default function Projects() {
             description: "A GUI program(Python + Tkinter) that predicts whether the patient has Breast Cancer or not using Machine Learning.  Random Forest Classifier was used as it gave the best accuracy(94.74%) ",
             techStack: ["Python", "Tkinter", "Machine Learning"],
         },
+        {
+            title: "Portfolio",
+            image: "/assets/images/portfolio.png",
+            demo: "https://swapnilgarg.vercel.app/",
+            github: "https://github.com/swapnilgarg7/swapnil-portfolio",
+            description: "My portfolio website built using React and Tailwind CSS. ",
+            techStack: ["React", "Tailwind CSS"],
+        },
     ]
 
     return (

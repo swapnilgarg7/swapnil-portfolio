@@ -19,8 +19,8 @@ export default function Navbar() {
     };
 
     return (
-        <div className="w-full py-5 sm:px-10 px-5 flex justify-between items-center ">
-            <nav className="flex w-full screen-max-width">
+        <div className="w-full py-5 sm:px-10 px-5 sm:flex justify-between items-center ">
+            <nav className="sm:flex w-full screen-max-width">
                 {/* Hamburger menu button */}
                 <div className="sm:hidden pt-1">
                     <button onClick={toggleMenu} className="block text-gray">
@@ -38,7 +38,7 @@ export default function Navbar() {
                 </div>
 
                 {/* Menu items */}
-                <div className={`flex flex-1 justify-center max-sm:flex-col  ${isOpen ? 'max-sm:block' : 'max-sm:hidden'}`}>
+                <div className={`pt-2 w-1/3 sm:w-full flex flex-col sm:flex-row justify-center items-center  ${isOpen ? 'max-sm:block' : 'max-sm:hidden'}`}>
                     <button onClick={() => smoothScrollTo('hero')} className="text-lg px-5 cursor-pointer text-gray hover:text-white transition-all">
                         Home
                     </button>

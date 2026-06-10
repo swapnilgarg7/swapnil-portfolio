@@ -9,10 +9,10 @@ export default function Navbar() {
     };
 
     const smoothScrollTo = (targetId) => {
-        const targetElement = document.getElementById(targetId);
-        if (targetElement) {
+        const el = document.getElementById(targetId);
+        if (el) {
             window.scrollTo({
-                top: targetElement.offsetTop,
+                top: el.getBoundingClientRect().top + window.scrollY,
                 behavior: 'smooth'
             });
         }
@@ -41,6 +41,9 @@ export default function Navbar() {
                 <div className={`pt-2 w-1/3 sm:w-full flex flex-col sm:flex-row justify-center items-center  ${isOpen ? 'max-sm:block' : 'max-sm:hidden'}`}>
                     <button onClick={() => smoothScrollTo('hero')} className="text-lg px-5 cursor-pointer text-gray hover:text-white transition-all">
                         Home
+                    </button>
+                    <button onClick={() => smoothScrollTo('about')} className="text-lg px-5 cursor-pointer text-gray hover:text-white transition-all">
+                        About
                     </button>
                     <button onClick={() => smoothScrollTo('experience')} className="text-lg px-5 cursor-pointer text-gray hover:text-white transition-all">
                         Experience

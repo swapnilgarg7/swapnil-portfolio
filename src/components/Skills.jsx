@@ -133,7 +133,7 @@ export default function Skills() {
     return (
         <div id="skills" className="py-24 px-6 flex flex-col items-center" ref={skillsRef}>
             <div className="max-w-4xl w-full">
-                <p className="section-label">03 — skills</p>
+                <p className="section-label">skills</p>
                 <h2 className="text-4xl font-bold text-white mb-12">
                     Tech <span className="text-blue">Stack</span>
                 </h2>

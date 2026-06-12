@@ -102,7 +102,7 @@ export default function Experience() {
     return (
         <div id="experience" className="py-24 px-6 flex flex-col items-center" ref={experienceRef}>
             <div className="max-w-3xl w-full">
-                <p className="section-label">02 — experience</p>
+                <p className="section-label">experience</p>
                 <h2 className="text-4xl font-bold text-white mb-12">
                     Work <span className="text-blue">History</span>
                 </h2>

@@ -44,7 +44,7 @@ export default function Hero() {
                     </div>
                     <div className="hero-text flex flex-row gap-4">
                         <MagneticButton>
-                            <a href="/assets/SwapnilGargCV.pdf" target="_blank"
+                            <a href="https://drive.google.com/file/d/1z2Srhx1Ru25RTFV9su09QmiVA2XAtKN5/view?usp=sharing" target="_blank" rel="noopener noreferrer"
                                 className="block px-8 py-3 rounded-lg font-semibold transition-all duration-200"
                                 style={{ background: '#64E9EE', color: '#030311' }}
                                 onMouseEnter={e => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = '#64E9EE'; e.currentTarget.style.boxShadow = 'inset 0 0 0 1.5px #64E9EE' }}
